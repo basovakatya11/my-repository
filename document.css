@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'BarlowRegular';
+    src: local('barlow'),
+    url(barlow/Barlow-Regular.otf);
+}
+
+@font-face {
+    font-family:'Barlow';
+    src: local('barlow'),
+    url(barlow/Barlow-Medium.otf);
+}
+
+@font-face {
+    font-family: 'BarlowLight';
+    src: url(barlow/Barlow-Light.otf);
+}
+
+body {
+    background-color:#EFF6FF;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    color: #2A4A5C;
+    
+
+}
+
+.container {
+    background-color:#ffffff;
+    margin:auto;
+    width: 700px;;
+    height: 461.2px;
+    display: flex;
+    box-shadow: 7px 2px 20px rgba(0,0,0,0.32);
+    position:absolute;
+    left:100px;
+    top: 100px;
+    bottom: 100px;
+    right:100px;
+}
+
+.main-part{
+    padding: 30px 30px;
+}
+
+
+.logo{
+    position:absolute;
+    left: 25px;
+    top: 20px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size:medium;
+}
+
+.first-p {
+    font-size:x-small;
+    font-weight: 400;
+    font-family:'BarlowRegular', Arial, Helvetica, sans-serif;
+    color:#7B8A92;
+}
+
+button{
+    width: 120px;
+    height: 20px;
+    color:white;
+    border: none;
+    font-size: 8px;
+    font-family: 'BarlowLight', Arial, Helvetica, sans-serif;
+    position:relative;
+}
+
+button img{
+    position: absolute;
+    left:5px;
+} 
+
+.button1 {
+    background-color: #255A9B;
+    margin-right: 15px;
+}
+.button2 {
+    background-color: #0076B6;
+}
+.buttons {
+    display: flex;
+    margin-top: 25px;
+}
+
+.button2:hover,
+.button1:hover,
+.last:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.or {
+    font-size: 7px;
+    font-family: 'Barlow';
+    position: absolute;
+    top:147px;
+    left:504px;
+}
+
+.border1,
+.border2 {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 60px;
+    padding: 10px;
+    position: absolute;
+}
+.border1{
+    left: 420px;
+    top: 132px;
+}
+.border2{
+    top: 132px;
+    left: 516px;
+}
+
+.form-group{
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 110px;
+    height: 20px;
+    padding: 5px;
+    position:relative;
+}
+
+.form-group label{
+    display:block;
+    font-size: 8px;
+    font-weight: 400;
+    font-family:'Barlowlight', Arial, Helvetica, sans-serif;
+    position:absolute;
+    top:2px;
+
+}
+.form-group:hover{
+    border-left: solid 1px #3698F8;
+}
+
+.form-group input{
+    width: 108px;
+    border:none;
+    background-color: transparent;
+    outline:none;
+    font-size: xx-small;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    color: #2A4A5C;
+    position: absolute;
+    bottom:4px;
+    
+}
+.b{
+    position: absolute;
+    top: 175px;
+    left:515px;
+
+}
+.a{
+    position:absolute;
+    top: 175px;
+    left:380px;
+
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    bottom: 205px;
+}
+.second-p {
+    font-size:8px;
+    font-family:'BarlowRegular', Arial, Helvetica, sans-serif;
+    color:#7B8A92;
+    position: absolute;
+    bottom: 190px;
+}
+
+.item label{
+    font-size: 8px;
+    cursor:pointer;
+    margin-right: 20px;
+    
+}
+
+.item input{
+    cursor: pointer;
+    
+}
+
+
+.items{
+    display:flex;
+    position: absolute;
+    bottom: 170px;
+}
+
+ 
+.prompt,
+.tick{
+    color:#AFAFAF;
+    font-size: 8px;
+    font-family: 'BarlowRegular';
+}
+
+.prompt{
+    width:160px;
+    height:40px;
+    padding: 3px 5px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 120px;
+    margin-left: 10px;
+    border-radius: 3px;
+
+}
+a:visited{
+    color:#3698FB;
+}
+.last{
+    background-color: #3698FB;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 40px;
+}
+.tick{
+    position: absolute;
+    bottom:80px;
+}
+
